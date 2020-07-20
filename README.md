@@ -1,4 +1,4 @@
-# {{ name }}
+# zm-x-zimlet-newtab
 
 ## CLI Commands
 
