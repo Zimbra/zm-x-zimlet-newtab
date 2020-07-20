@@ -6,12 +6,9 @@ import style from './style';
 // More shims can be added here if necessary; also requires an update to zimlet-cli
 
 export default class App extends Component {
-
 	handleClick = () => console.log('Test!');
 
 	render() {
-		return (
-			<Button onClick={this.handleClick}>Test!</Button>
-		);
+		return <Button onClick={this.handleClick}>Test!</Button>;
 	}
 }
